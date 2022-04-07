@@ -14,7 +14,7 @@ public class Guess {
      System.out.println("Your guess is: " + userguess);
       System.out.println("The number I was thinking of is: " + myNumber);
       
-    // had this to find the difference but negatie numbers were coming up. Searched up how to show the absolute value :)
+    // had this to find the difference but negative numbers were coming up. Searched up how to show the absolute value :)
       diffNum = Math.abs(myNumber - userguess); 
       System.out.println("You were off by: " + diffNum);
     }
