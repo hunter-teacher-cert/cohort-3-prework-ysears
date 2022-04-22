@@ -4,6 +4,8 @@ import java.util.*;
 public class Loops{
   public static void main(String[] args){
     System.out.println(squareRoot(9));
+    System.out.println(power(2.3,4));
+  
   }
   
 //Exercise 2
@@ -17,8 +19,17 @@ public class Loops{
     }
     return guess2;
   }
-}
 
 //Exercise 3
+  public static double power(double x, int n){
+    double answer = x;
+    for(int i=1; i<n;i++){
+      answer = answer * x;
+    }
+    return answer;
+  }
 
 
+  //Exercise 4
+  
+}
