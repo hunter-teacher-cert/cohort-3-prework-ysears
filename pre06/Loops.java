@@ -5,6 +5,7 @@ public class Loops{
   public static void main(String[] args){
     System.out.println(squareRoot(9));
     System.out.println(power(2.3,4));
+    System.out.println(factorial (3));
   
   }
   
@@ -31,5 +32,12 @@ public class Loops{
 
 
   //Exercise 4
+  public static int factorial (int n){
+    int answer = n;
+    for(int i = 1; i<n; i++){
+      answer = answer * i;
+    }
+    return answer;
+  }
   
 }
