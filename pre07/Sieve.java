@@ -8,6 +8,11 @@ public class Sieve {
   }
 
   public static boolean (int n){
+    //creates new array and will tell if each number is prime 
+    boolean array[] = new boolean[n + 1];
+    //This will assume that all elements are prime initially
+        for (int i = 0; i <= n; i++)
+            array[i] = true;
   
     
 
